@@ -1,0 +1,58 @@
+body {
+    background-color: #111111;
+    color: #777777;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #555555;
+    letter-spacing: 2px;
+}
+
+.timer {
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: #999999;
+    letter-spacing: 5px;
+}
+
+.heartbroken {
+    font-size: 6em;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 1.8em;
+    color: #666666;
+    padding: 0 10%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .timer {
+        font-size: 3em;
+    }
+
+    .heartbroken {
+        font-size: 5em;
+    }
+
+    .message {
+        font-size: 1.5em;
+        padding: 0 5%;
+    }
+}
